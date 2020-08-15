@@ -15,21 +15,25 @@ ShiroCookie解密小工具，基于[SerializationDumper](https://github.com/Nick
 - 非基于`TemplatesImpl`的链子，则直接用`xxd`查找关键字即可
 - 基于`TemplatesImpl`的链子，关注点在`_bytecodes`字段的代码
 
-#### 一、非`TemplatesImpl`的链子，使用cc1链的shio cookie
+#### 一、非`TemplatesImpl`的链子
+
+使用cc1链的shio cookie
 
 加密key为：`wGiHplamyXlVB11UXWol8g==`
 
-![image-20200815172742532](img/image-20200815172742532.png)
+![image-20200815174935880](img/image-20200815174935880.png)
 
 `xxd` 查找
 
 ![image-20200815172851945](img/image-20200815172851945.png)
 
-#### 二、使用cc2链的shiro cookie
+#### 二、`TemplatesImpl`的链子
+
+使用cc2链的shiro cookie
 
 加密key为：`wGiHplamyXlVB11UXWol8g==`
 
-![image-20200815171611749](img/image-20200815171611749.png)
+![image-20200815175241376](img/image-20200815175241376.png)
 
 查看`bytecodes.class`
 
@@ -37,7 +41,7 @@ ShiroCookie解密小工具，基于[SerializationDumper](https://github.com/Nick
 
 使用`tomcat`回显链
 
-![image-20200815172010899](img/image-20200815172010899.png)
+![image-20200815175352841](img/image-20200815175352841.png)
 
 `bytecodes.class`
 
