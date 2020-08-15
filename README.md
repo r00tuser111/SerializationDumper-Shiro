@@ -19,29 +19,29 @@ ShiroCookie解密小工具，基于[SerializationDumper](https://github.com/Nick
 
 加密key为：`wGiHplamyXlVB11UXWol8g==`
 
-![image-20200815172742532](img\image-20200815172742532.png)
+![image-20200815172742532](img/image-20200815172742532.png)
 
 `xxd` 查找
 
-![image-20200815172851945](img\image-20200815172851945.png)
+![image-20200815172851945](img/image-20200815172851945.png)
 
 #### 二、使用cc2链的shiro cookie
 
 加密key为：`wGiHplamyXlVB11UXWol8g==`
 
-![image-20200815171611749](img\image-20200815171611749.png)
+![image-20200815171611749](img/image-20200815171611749.png)
 
 查看`bytecodes.class`
 
-![image-20200815171738935](img\image-20200815171738935.png)
+![image-20200815171738935](img/image-20200815171738935.png)
 
 使用`tomcat`回显链
 
-![image-20200815172010899](img\image-20200815172010899.png)
+![image-20200815172010899](img/image-20200815172010899.png)
 
 `bytecodes.class`
 
-![image-20200815172050382](img\image-20200815172050382.png)
+![image-20200815172050382](img/image-20200815172050382.png)
 
 ### 参考
 
