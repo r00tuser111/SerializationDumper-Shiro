@@ -2,11 +2,11 @@
 
 ShiroCookie解密小工具，基于[SerializationDumper](https://github.com/NickstaDB/SerializationDumper)
 
-### 代码逻辑：
+### 代码逻辑
 
 用100key碰撞解密，再用`SerializationDumper`把数据`dump`出来
 
-### 使用截图：
+### 使用说明
 
 基础用法：`java -jar SerializationDumper-Shiro.jar -s shiro_cookie_base64_data`
 
